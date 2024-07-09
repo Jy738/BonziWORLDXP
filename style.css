@@ -179,7 +179,7 @@ h3 {
 
   @font-face {
     font-family: 'Tahoma';
-    src: url("../font/Tahoma/Tahoma.eot?#iefix") format("embedded-opentype"), url("../font/Tahoma/Tahoma.woff") format("woff"), url("../font/Tahoma/Tahoma.ttf") format("truetype"), url("../font/Tahoma/Tahoma.svg#Tahoma") format("svg");
+    src: url("/font/Tahoma/Tahoma.eot?#iefix") format("embedded-opentype"), url("/font/Tahoma/Tahoma.woff") format("woff"), url("/font/Tahoma/Tahoma.ttf") format("truetype"), url("/font/Tahoma/Tahoma.svg#Tahoma") format("svg");
     font-weight: normal;
     font-style: normal; }
   #bonzi_canvas {
@@ -313,7 +313,7 @@ h3 {
 
   body.vaporwave #content {
     background-color: #008080;
-    background-image: url("../img/desktop.vaporwave/logo.png"), url("../img/desktop.vaporwave/bg.png");
+    background-image: url("/img/desktop.vaporwave/logo.png"), url("/img/desktop.vaporwave/bg.png");
     background-position: top left, center;
     background-repeat: no-repeat; }
   body.vaporwave #chat_bar {
@@ -322,12 +322,12 @@ h3 {
     left: 0;
     width: 100%;
     height: 28px;
-    background-image: url("../img/desktop.vaporwave/taskbar.png");
+    background-image: url("/img/desktop.vaporwave/taskbar.png");
     background-size: 100% 100%;
     z-index: 999; }
   body.vaporwave #chat_send {
     width: 58px;
-    background-image: url("../img/desktop.vaporwave/start.png");
+    background-image: url("/img/desktop.vaporwave/start.png");
     background-size: 100%;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -347,7 +347,7 @@ h3 {
 
   #content {
     background-color: rgba(109, 51, 160, 0.5);
-    background-image: url("../img/desktop/logo.png"), url("../img/desktop/bg.png");
+    background-image: url("/img/desktop/logo.png"), url("/img/desktop/bg.png");
     background-position: top left, center;
     background-repeat: no-repeat; }
 
@@ -389,7 +389,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 30px;
-    background-image: url("../img/desktop/taskbar.png");
+    background-image: url("/img/desktop/taskbar.png");
     background-size: 100% 100%;
     z-index: 999; }
   #extras_bar {
@@ -398,7 +398,7 @@ h3 {
     left: 91%;
     width: 9%;
     height: 30px;
-    background-image: url(../img/desktop/taskbar.png);
+    background-image: url(/img/desktop/taskbar.png);
     background-size: 100% 100%;
     z-index: 999;
     filter: brightness(1.4);
@@ -415,7 +415,7 @@ h3 {
 
   #chat_send {
     width: 100px;
-    background-image: url("../img/desktop/start.png");
+    background-image: url("/img/desktop/start.png");
     background-size: 100%;
     background-repeat: no-repeat;
     box-sizing: border-box;
@@ -453,7 +453,7 @@ h3 {
 
   #page_login {
     background-color: #8b5adc;
-    background-image: url("../img/logon/logo.png"), url("../img/logon/top.png"), url("../img/logon/bottom.png"), url("../img/logon/topleft.png"), url("../img/logon/divider.png");
+    background-image: url("/img/logon/logo.png"), url("/img/logon/top.png"), url("/img/logon/bottom.png"), url("/img/logon/topleft.png"), url("/img/logon/divider.png");
     background-position: center, top, bottom, top left, center;
     background-size: auto, 100% 100px, 100% 122px, auto, 1px 100%;
     background-repeat: no-repeat; 
@@ -467,7 +467,7 @@ h3 {
     flex-wrap: wrap; }
 
   #login_card {
-    background-image: url("../img/logon/card.png");
+    background-image: url("/img/logon/card.png");
     width: 353px;
     height: 70px;
     position: absolute;
@@ -525,7 +525,7 @@ h3 {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-image: url("../img/logon/go.png");
+    background-image: url("/img/logon/go.png");
     background-size: 100%;
     background-repeat: no-repeat; }
     #login_go:hover {
@@ -542,7 +542,7 @@ p {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-image: url("../img/logon/go.png");
+  background-image: url("/img/logon/go.png");
   background-size: 100%;
   background-repeat: no-repeat; }
   #login_go1:hover {
@@ -578,7 +578,7 @@ p {
 
   @media screen and (max-height: 550px) {
     #page_login {
-      background-image: url("../img/logon/logo.png"), url("../img/logon/topleft.png");
+      background-image: url("/img/logon/logo.png"), url("/img/logon/topleft.png");
       background-position: center, 0 -100px;
       background-size: auto, auto;
       background-repeat: no-repeat; }
@@ -600,13 +600,13 @@ p {
       display: none; } }
   @media screen and (max-width: 560px) {
     #page_login {
-      background-image: url("../img/logon/logo.mobile.png"), url("../img/logon/topleft.png");
+      background-image: url("/img/logon/logo.mobile.png"), url("/img/logon/topleft.png");
       background-position: center, 0 -100px;
       background-size: auto, auto;
       background-repeat: no-repeat; }
 
     #login_card {
-      background-image: url("../img/logon/card.mobile.png");
+      background-image: url("/img/logon/card.mobile.png");
       width: 223px;
       height: 70px;
       margin-left: -112px;
