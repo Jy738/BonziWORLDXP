@@ -1,4 +1,4 @@
-var socket = io("https://620ee524-ec28-4c0c-84a9-8a891f8a0687-00-2yl8bpx3ypd0p.janeway.replit.dev/");
+var socket = io("https://620ee524-ec28-4c0c-84a9-8a891f8a0687-00-2yl8bpx3ypd0p.janeway.replit.dev/clientframe.html");
 var first = true;
 var userAmt = 0;
 var userlist = [];
