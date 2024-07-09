@@ -12,7 +12,7 @@
 
   @font-face {
       font-family: 'WinXP';
-      src: url('/css/win.ttf') format("opentype");
+      src: url('https://jy738.github.io/BonziWORLDXP/css/win.ttf') format("opentype");
 
   }
 
